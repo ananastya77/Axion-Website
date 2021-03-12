@@ -1,0 +1,1556 @@
+.body {
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: .5px;
+  margin: auto;
+  width: 930px;
+  color: #000;
+  background: #fff;
+}
+
+/* Header */
+
+.header {
+  text-transform: uppercase;
+}
+
+.top {
+  display: none;
+}
+
+.header__top {
+  height: 55px;
+  margin: 33px auto 21px;
+  padding: 0 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 61px;
+  margin-right: 30px;
+}
+
+.navigation {
+  width: 333px;
+  margin-right: 131px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.navigation__link {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation__link:hover {
+  cursor: pointer;
+  text-shadow: 1px 2px 1px #b4b4b4;
+}
+
+.header__right-part {
+  width: 365px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__search {
+  height: 20px;
+  width: 161px;
+  border-bottom: 1px solid;
+}
+
+.header__input {
+  width: 147px;
+  outline: none;
+  border: none;
+}
+
+.header__submit {
+  position: absolute;
+  height: 20px;
+  width: 14px;
+  margin-right: 0;
+  background: url("Pictures/loop.svg") center no-repeat;
+  border: transparent;
+}
+
+.header__submit:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.header__cart-button {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__number {
+  width: 14px;
+  height: 15px;
+  margin-left: 5px;
+  padding: 0;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  background: #000;
+}
+
+.header__number:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.header__button {
+  width: 18px;
+  height: 20px;
+  background-image: url("Pictures/united-states.svg");
+  background-color: transparent;
+  border: none;
+}
+
+.header__button:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.box {
+  height: 253px;
+  margin: 0 auto 47px;
+  padding-left: 55px;
+  background-image: url('./Pictures/box background.png');
+}
+
+.box__title {
+  font-size: 30px;
+  line-height: 29px;
+  padding-top: 47px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.box__link {
+  text-decoration: none;
+}
+
+.box__link:hover {
+  cursor: pointer;
+  text-shadow: 1px 2px 1px #6d6d6d;
+}
+
+.box__text {
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.box__arrow_big {
+  display: none;
+}
+
+/* First Section */
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 77px;
+}
+
+.product__title {
+  width: 100%;
+  font-size: 22px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product__container {
+  width: 208px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product__vector {
+  margin-bottom: 50px;
+}
+
+.product__img {
+  width: 170px;
+  height: 173px;
+  margin: 0 auto 16px;
+}
+
+.product__text {
+  width: 100%;
+  font-size: 12px;
+  letter-spacing: .7px;
+  padding-left: 11px;
+  margin-bottom: 5px;
+}
+
+.product__price {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 11px;
+}
+
+.product__colorbox {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 11px;
+}
+
+.product__color {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: none;
+}
+
+.product__color:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.product__color_big {
+  width: 9px;
+  height: 9px;
+}
+
+.product__color_grey {
+  background: #c4c4c4;
+}
+
+.product__color_black {
+  background: #0e1211;
+}
+
+.product__color_camel {
+  background: #e29d69;
+}
+
+.product__color_blue {
+  background: #41479b;
+}
+
+.product__color_red {
+  background: #b62e3c;
+}
+
+.product__color_yellow {
+  background: #fdb431;
+}
+
+.product__color_bordo {
+  background: #762e31;
+}
+
+/* Second Section */
+
+.review {
+  display: inline-flex;
+  background: #000;
+  margin-bottom: 73px;
+}
+
+.review__video {
+  position: relative;
+  width: 579px;
+  height: 326px;
+  padding-top: 58px;
+  padding-bottom: 58px;
+  padding-left: 30px;
+  margin-right: 39px;
+}
+
+.review__background {
+  width: 579px;
+  height: 326px;
+}
+
+.review__button {
+  position: absolute;
+  top: 196px;
+  left: 294px;
+  width: 52px;
+  height: 52px;
+  border: none;
+  background: url("Pictures/video-button.svg");
+}
+
+.review__button:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.review__collection {
+  width: 248px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 112px;
+  padding-right: 33px;
+  letter-spacing: .8px;
+  color: #fff;
+}
+
+.review__title {
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+}
+
+.review__text {
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: .7px;
+  margin-bottom: 9px;
+}
+
+.review__link {
+  text-decoration: none;
+}
+
+.review__ref {
+  font-size: 12px;
+  line-height: 11px;
+  font-weight: bold;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.review__link:hover {
+  cursor: pointer;
+  text-shadow: 1px 2px 1px #6d6d6d;
+}
+
+/* Third Section */
+
+.stories {
+  margin-bottom: 87px;
+  padding: 0 5px;
+}
+
+.stories__heading {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 41px;
+}
+
+.stories__container {
+  line-height: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.stories__box {
+  width: 277px;
+}
+
+.stories__img {
+  width: 277px;
+  height: 147px;
+  margin-bottom: 14px;
+}
+
+.stories__title {
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+.stories__text {
+  font-size: 13px;
+  letter-spacing: .6px;
+  vertical-align: top;
+}
+
+.stories__wrap {
+  margin-top: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.stories__link {
+  text-decoration: none;
+}
+
+.stories__link:hover {
+  cursor: pointer;
+  text-shadow: 1px 2px 1px #6d6d6d;
+}
+
+.stories__ref {
+  margin-right: -5px;
+  font-size: 12px;
+  line-height: 11px;
+  text-decoration: none;
+  color: #000;
+}
+
+.stories__arrow_white,
+.stories__arrow_small {
+  display: none;
+}
+
+.stories__date {
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+  opacity: .3;
+}
+
+/* Forth Section */
+
+.footwear__title {
+  font-size: 18px;
+  letter-spacing: .9px;
+  text-align: right;
+  text-transform: uppercase;
+  opacity: .3;
+  margin-bottom: 8px;
+}
+
+.footwear__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+
+.footwear__img {
+  width: 133.6px;
+  height: 133px;
+  margin-right: -1px;
+}
+
+.footwear__img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.footwear__img_last {
+  display: none;
+}
+
+/* Footer */
+
+.footer {
+  width: 110%;
+  margin-left: -47px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 58px;
+  padding-bottom: 30px;
+  background: #000;
+  color: #fff;
+}
+
+.footer__account {
+  margin-left: 128px;
+  margin-right: 41px;
+}
+
+.footer__company {
+  margin-right: 15px;
+  margin-bottom: 53px;
+}
+
+.footer__signup {
+  width: 175px;
+  margin-right: 121px;
+}
+
+.footer__title {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.footer__title_lower {
+  margin-bottom: 0;
+}
+
+.footer__navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__link {
+  font-size: 12px;
+  line-height: 11px;
+  font-weight: lighter;
+  text-decoration: none;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+.footer__link:hover {
+  cursor: pointer;
+  text-shadow: 1px 2px 1px #f1f1f1;
+}
+
+.footer__text {
+  font-size: 12px;
+}
+
+.footer__button {
+  width: 137px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 34px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1.5px solid #fff;
+  background: #000;
+  color: #fff;
+}
+
+.footer__button:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.network-navigation {
+  width: 137px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.network-navigation__link {
+  text-decoration: none;
+}
+
+.network-navigation__link:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.network-navigation__icon {
+  width: 100%;
+  height: 18px;
+}
+
+.footer__copyright {
+  width: 100%;
+  font-size: 12px;
+  letter-spacing: .6px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media (min-width: 1170px) {
+  .body {
+    width: 1030px;
+  }
+
+  .header__top {
+    height: 55px;
+    margin: 33px auto 8px;
+  }
+
+  .navigation {
+    width: 343px;
+    margin-right: 185px;
+  }
+
+  .header__right-part {
+    width: 400px;
+  }
+
+  .header__search {
+    width: 179px;
+  }
+
+  .header__input {
+    width: 163px;
+  }
+
+  .box {
+    height: 280px;
+    padding-left: 60px;
+    margin: 0 auto 35px;
+    background-image: url('./Pictures/rob-potter-1170.svg');
+  }
+
+  .box__title {
+    padding-top: 59px;
+    margin-bottom: 12px;
+  }
+
+  .box__text {
+    margin-right: 2px;
+  }
+
+  .product {
+    margin-bottom: 50px;
+  }
+
+  .product__container {
+    width: 230px;
+  }
+
+  .product__vector {
+    margin-bottom: 55px;
+  }
+
+  .product__colorbox {
+    width: 55px;
+  }
+
+  .review {
+    margin-bottom: 58px;
+  }
+
+  .review__video {
+    width: 644px;
+    height: 360px;
+    padding-top: 67px;
+    padding-bottom: 67px;
+    padding-left: 33px;
+    margin-right: 43px;
+  }
+
+  .review__background {
+    width: 644px;
+    height: 360px;
+  }
+
+  .review__button {
+    width: 57px;
+    height: 57px;
+    top: 44%;
+    left: 48%;
+    background: url("Pictures/v-button1170.svg");
+  }
+
+  .review__collection {
+    width: 266px;
+    padding-top: 132px;
+    padding-right: 44px;
+    color: #fff;
+  }
+
+  .review__title {
+    margin-bottom: 13px;
+  }
+
+  .review__text {
+    font-size: 14px;
+    line-height: 17.5px;
+    margin-bottom: 16px;
+  }
+
+  .review__ref {
+    margin-right: 4px;
+  }
+
+  .stories {
+    margin-bottom: 77px;
+  }
+
+  .stories__box {
+    width: 307px;
+  }
+
+  .stories__img {
+    width: 307px;
+  }
+
+  .stories__text {
+    font-size: 14px;
+    line-height: 17.5px;
+  }
+
+  .stories__wrap {
+    margin-top: 12px;
+  }
+
+  .stories__ref {
+    margin-right: 2px;
+  }
+
+  .stories__date {
+    display: flex;
+    align-items: center;
+  }
+
+  .footwear__img {
+    width: 148px;
+    height: 147px;
+    margin-right: -1.1px;
+  }
+
+  .footwear__container {
+    margin-bottom: 80px;
+  }
+
+  .footer {
+    width: 113.5%;
+    margin-left: -70px;
+  }
+
+  .footer__account {
+    margin-left: 200px;
+    margin-right: 43px;
+  }
+
+  .footer__signup {
+    margin-right: 194px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .review {
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .body {
+    width: 100%;
+  }
+
+  .header__top {
+    display: none;
+  }
+
+  .top {
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 42px auto 38px;
+  }
+
+  .top__logo {
+    width: 156px;
+    height: 34px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  .menu__bar {
+    width: 61px;
+    height: 9px;
+    background: #000;
+  }
+
+  .menu__bar_top {
+    margin-bottom: 8px;
+  }
+
+  .box {
+    height: 415px;
+    padding-left: 43px;
+    margin-bottom: 44px;
+    background-image: url(Pictures/rob-potter-small.svg);
+  }
+
+  .box__title {
+    font-size: 50px;
+    line-height: 48px;
+    padding-top: 72px;
+    margin-bottom: 50px;
+  }
+
+  .box__text {
+    font-size: 20px;
+    line-height: 19px;
+  }
+
+  .box__arrow {
+    display: none;
+  }
+
+  .box__arrow_big {
+    display: inline-flex;
+  }
+
+  .product {
+    width: 82%;
+    margin: 0 auto;
+  }
+
+  .product__title {
+    font-size: 30px;
+    white-space: nowrap;
+    margin-bottom: 26px;
+    margin-right: 26px;
+  }
+
+  .product__container {
+    width: 281px;
+  }
+
+  .product__img {
+    height: 232px;
+    width: 230px;
+    margin-bottom: 7px;
+  }
+
+  .product__text {
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+    margin-bottom: 18px;
+  }
+
+  .product__price {
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+  }
+
+  .product__colorbox {
+    width: 95px;
+    height: 20px;
+    margin-right: 0;
+  }
+
+  .product__colorbox_black {
+    margin-right: 15px;
+  }
+
+  .product__color,
+  .product__color_big {
+    height: 20px;
+    width: 20px;
+  }
+
+  .product__smoke,
+  .product__blue {
+    display: none;
+  }
+
+  .product__vector {
+    display: none;
+  }
+
+  .review {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 81px;
+    margin-bottom: -1px;
+    background: #000;
+    background: -webkit-linear-gradient(2.6deg, #000 0%, #000 88.5%, #fff 88.5%, #fff 100%);
+    background: -o-linear-gradient(2.6deg, #000 0%, #000 88.5%, #fff 88.5%, #fff 100%);
+    background: linear-gradient(2.6deg, #000 0%, #000 88.5%, #fff 88.5%, #fff 100%);
+  }
+
+  .review__collection {
+    width: 92%;
+    display: flex;
+    align-items: center;
+    padding-top: 21px;
+  }
+
+  .review__title {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 1.1px;
+    text-align: center;
+    padding-left: 33px;
+    margin-bottom: 14px;
+  }
+
+  .review__text {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: .9px;
+    padding-left: 35px;
+    margin-bottom: 32px;
+  }
+
+  .review__link {
+    display: none;
+  }
+
+  .review__video {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .review__background {
+    width: 95%;
+    height: 95%;
+  }
+
+  .review__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: url("Pictures/v-button768.svg") center no-repeat;
+  }
+
+  .stories {
+    padding-top: 82px;
+    background: #000;
+    color: #fff;
+    margin-bottom: -1px;
+  }
+
+  .stories__heading {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .stories__container {
+    width: 88.5%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .stories__baekkel {
+    display: none;
+  }
+
+  .stories__box {
+    width: 312px;
+  }
+
+  .stories__img {
+    width: 312px;
+    height: 166px;
+    margin-bottom: 12px;
+  }
+
+  .stories__title {
+    font-size: 25px;
+    letter-spacing: .75px;
+    margin-bottom: 11px;
+  }
+
+  .stories__text {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+
+  .stories__wrap {
+    margin-top: 40px;
+    display: flex;
+  }
+
+  .stories__ref {
+    font-size: 20px;
+    line-height: 19px;
+    margin-right: 13px;
+    color: #fff;
+  }
+
+  .stories__link {
+    display: flex;
+    align-items: center;
+  }
+
+  .stories__arrow {
+    display: none;
+  }
+
+  .stories__arrow_white {
+    display: inline;
+  }
+
+  .stories__date {
+    font-size: 15px;
+    line-height: 14px;
+    color: #d1d1d1;
+    opacity: 1;
+  }
+
+  .footwear {
+    padding-top: 125px;
+    margin-bottom: 124px;
+    background: #000;
+    background: -webkit-linear-gradient(2.6deg, #fff 0%, #fff 42%, #000 42%, #000 100%);
+    background: -o-linear-gradient(2.6deg, #fff 0%, #fff 42%, #000 42%, #000 100%);
+    background: linear-gradient(2.6deg, #fff 0%, #fff 42%, #000 42%, #000 100%);
+  }
+
+  .footwear__title {
+    width: 88.5%;
+    margin: 0 auto 10px;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    color: #e8e8e8;
+    opacity: 1;
+  }
+
+  .footwear__container {
+    width: 88.5%;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-rows: repeat(2, 169px);
+    grid-template-columns: repeat(4, 169px);
+    justify-content: space-evenly;
+  }
+
+  .footwear__img {
+    width: 171px;
+    height: 171px;
+    justify-content: space-evenly;
+  }
+
+  .footwear__img_last {
+    display: inline;
+  }
+
+  .footer {
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom: 30px;
+  }
+
+  .footer__title,
+  .footer__title_lower {
+    margin-bottom: 6px;
+  }
+
+  .footer__account {
+    margin-left: 51px;
+    margin-right: 0;
+  }
+
+  .footer__company {
+    margin-bottom: 73px;
+  }
+
+  .footer__signup {
+    margin-right: 23px;
+    line-height: 11px;
+  }
+
+  .footer__text {
+    letter-spacing: 1.5px;
+  }
+
+  .footer__text_narrow {
+    letter-spacing: .6px;
+  }
+
+  .footer__button {
+    width: 143px;
+    height: 26px;
+    margin-top: 11px;
+    margin-bottom: 30px;
+  }
+
+  .network-navigation {
+    width: 124px;
+    margin-left: -5px;
+  }
+
+  .network-navigation__icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 714px) {
+  .stories__container {
+    justify-content: space-evenly;
+  }
+
+  .stories__anagoa {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 685px) {
+  .product {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footwear__container {
+    grid-template-rows: repeat(auto-fill, 170px);
+    grid-template-columns: repeat(3, 170px);
+    justify-content: center;
+  }
+
+  .footwear__img {
+    height: 172px;
+    width: 172px;
+  }
+
+  .footwear__img_invisible,
+  .footwear__img_last {
+    display: none;
+  }
+
+  .footer {
+    justify-content: space-evenly;
+  }
+
+  .footer__title {
+    margin-right: 5px;
+  }
+
+  .footer__account {
+    margin-left: 15px;
+  }
+
+  .footer__company {
+    margin-bottom: 50px;
+  }
+
+  .footer__signup {
+    padding-top: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 514px) {
+  .footwear__title {
+    width: 337px;
+  }
+
+  .footwear__container {
+    margin: auto;
+    width: 337px;
+    grid-template-rows: repeat(3, 169px);
+    grid-template-columns: repeat(2, 169px);
+  }
+}
+
+@media (max-width: 391px) {
+  .review__collection {
+    width: 91%;
+  }
+}
+
+@media (max-width: 375px) {
+  .body {
+    width: 375px;
+  }
+
+  .top {
+    width: 75%;
+    margin: 24px auto 25px;
+  }
+
+  .top__logo {
+    width: 108px;
+    height: 22px;
+  }
+
+  .menu__bar {
+    width: 41px;
+    height: 6px;
+  }
+
+  .menu__bar_top {
+    margin-bottom: 5px;
+  }
+
+  .box {
+    height: 191px;
+    padding-left: 49px;
+    margin-bottom: 22px;
+    background-image: url(Pictures/rob-potter-smaller.svg);
+  }
+
+  .box__title {
+    font-size: 20px;
+    line-height: 19px;
+    padding-top: 47px;
+    margin-bottom: 14px;
+  }
+
+  .box__text {
+    font-size: 12px;
+    line-height: 11px;
+    margin-right: 4px;
+  }
+
+  .box__arrow {
+    display: inline-flex;
+  }
+
+  .box__arrow_big {
+    display: none;
+  }
+
+  .product__title {
+    font-size: 20px;
+    line-height: 19px;
+    margin-right: 11px;
+    margin-bottom: 0;
+  }
+
+  .product__container {
+    margin: 0 auto 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .product__img {
+    width: 163px;
+    height: 160px;
+  }
+
+  .product__text {
+    font-size: 15px;
+    line-height: 14px;
+    padding-left: 16px;
+    margin-bottom: 3px;
+  }
+
+  .product__price {
+    font-size: 20px;
+    padding-left: 16px;
+  }
+
+  .product__colorbox {
+    width: 75px;
+    height: 24px;
+    margin-right: 0;
+  }
+
+  .product__color {
+    width: 15px;
+    height: 15px;
+  }
+
+  .product__camel,
+  .product__smoke,
+  .product__blue {
+    display: none;
+  }
+
+  .review {
+    width: 100%;
+  }
+
+  .review__video {
+    width: 87%;
+    height: 87%;
+  }
+
+  .review__background {
+    width: 87%;
+    height: 87%;
+  }
+
+  .review__button {
+    width: 30px;
+    height: 30px;
+    background: url("Pictures/vi button 375.png");
+  }
+
+  .review__collection {
+    padding-top: 5px;
+  }
+
+  .review__title {
+    width: 70%;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 17px;
+  }
+
+  .review__text {
+    width: 295px;
+    font-size: 14px;
+    line-height: 17.5px;
+    letter-spacing: .7px;
+    margin-bottom: 27px;
+  }
+
+  .stories__heading {
+    font-size: 20px;
+    margin-bottom: 26px;
+  }
+
+  .stories__anagoa {
+    width: 278px;
+  }
+
+  .stories__reynolds {
+    display: none;
+  }
+
+  .stories__img {
+    width: 278px;
+    height: 148px;
+  }
+
+  .stories__title {
+    font-size: 20px;
+    letter-spacing: .5px;
+  }
+
+  .stories__text {
+    font-size: 14px;
+    line-height: 17.5px;
+    letter-spacing: .7px;
+  }
+
+  .stories__wrap {
+    margin-top: 22px;
+  }
+
+  .stories__ref {
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: .3px;
+    margin-right: 12px;
+  }
+
+  .stories__date {
+    font-size: 15px;
+    line-height: 14px;
+  }
+
+  .stories__arrow_white {
+    display: none;
+  }
+
+  .stories__arrow_small {
+    display: inline;
+  }
+
+  .footwear {
+    padding-top: 53px;
+    margin-bottom: 85px;
+    background: #000;
+    background: -webkit-linear-gradient(2.6deg, #fff 0%, #fff 37.5%, #000 37.5%, #000 100%);
+    background: -o-linear-gradient(2.6deg, #fff 0%, #fff 37.5%, #000 37.5%, #000 100%);
+    background: linear-gradient(2.6deg, #fff 0%, #fff 37.5%, #000 37.5%, #000 100%);
+  }
+
+  .footwear__title {
+    width: 280px;
+    margin: 0 auto 8px;
+    font-size: 25px;
+    letter-spacing: 1.8px;
+  }
+
+  .footwear__container {
+    width: 280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(3, 140px);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footwear__img {
+    width: 141px;
+    height: 141px;
+  }
+
+  .footer {
+    padding-top: 23px;
+    padding-bottom: 33px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .footer__title {
+    font-size: 15px;
+    padding-left: 3px;
+    letter-spacing: .4px;
+  }
+
+  .footer__link {
+    font-size: 15px;
+    letter-spacing: .8px;
+    line-height: 13.5px;
+    margin-bottom: 7px;
+  }
+
+  .footer__account {
+    margin: 0 auto 28px;
+  }
+
+  .footer__account .footer__link {
+    line-height: 14px;
+    margin-bottom: 9px;
+  }
+
+  .footer__company {
+    margin: 0 auto 27px;
+  }
+
+  .footer__service {
+    order: 1;
+    margin: 0 auto 33px;
+  }
+
+  .footer__signup {
+    order: 2;
+    width: 185px;
+    margin: 0 auto 28px;
+    text-align: center;
+  }
+
+  .footer__title_lower {
+    margin-bottom: 12px;
+  }
+
+  .footer__text {
+    font-size: 15px;
+    line-height: 14px;
+    letter-spacing: .8px;
+  }
+
+  .footer__button {
+    width: 150px;
+    height: 37px;
+    margin-top: 22px;
+    margin-bottom: 103px;
+    font-size: 12px;
+  }
+
+  .network-navigation {
+    width: 170px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .network-navigation__icon {
+    height: 22px;
+    width: 22px;
+  }
+
+  .network-navigation__facebook {
+    height: 20px;
+    width: 15px;
+  }
+
+  .footer__copyright {
+    order: 2;
+    margin: 0 auto;
+  }
+
+  .footer__text_narrow {
+    font-size: 13px;
+    letter-spacing: .6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .top {
+    width: 88%;
+  }
+
+  .box {
+    padding-left: 19px;
+    margin-bottom: 22px;
+    background-image: url(Pictures/rob-potter-320.svg) no-repeat;
+  }
+
+  .product__img {
+    margin-bottom: 6px;
+  }
+
+  .product__text {
+    padding-left: 7px;
+  }
+
+  .product__price {
+    padding-left: 7px;
+  }
+
+  .product__colorbox {
+    height: 26px;
+    margin-right: -10px;
+  }
+
+  .review__collection {
+    padding-top: 4px;
+  }
+
+  .review__title {
+    width: 80%;
+  }
+
+  .review__video {
+    width: 94%;
+    height: 94%;
+  }
+
+  .review__background {
+    width: 94%;
+    height: 94%;
+  }
+}
